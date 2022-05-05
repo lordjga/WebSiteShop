@@ -38,10 +38,4 @@ namespace WebSiteShop_Utility
                 StatusPending,StatusApproved,StatusProcessing,StatusShipped,StatusCancelled,StatusRefunded
             });
     }
-    //тестирование Git
-    //тестирование TestBranch
-    //тестирование TestBranch2
-    //тестирование TestBranch3
-
-    //тестирование TestBranch5
 }

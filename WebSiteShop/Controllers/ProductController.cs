@@ -112,9 +112,9 @@ namespace WebSiteShop.Controllers
 
                     if (files.Count > 0)
                     {
-                        string upload = webRootPath + WC.ImagePath;//полный путь к нужной папке
-                        string filename = Guid.NewGuid().ToString();//для имени файла используется случайный guid (глобальный уникальный идентификатор )
-                        string extension = Path.GetExtension(files[0].FileName);//расширение для файла, присваивается из файла, который уже был загружен?????
+                        string upload = webRootPath + WC.ImagePath;
+                        string filename = Guid.NewGuid().ToString();
+                        string extension = Path.GetExtension(files[0].FileName);
                         
                         var oldFile=Path.Combine(upload, objFromDb.Image);// ссылка на старое фото
 
